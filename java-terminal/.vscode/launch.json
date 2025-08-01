@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AboutMeSacanner",
+            "request": "launch",
+            "mainClass": "AboutMeSacanner",
+            "projectName": "java-terminal_2f2b4564"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "java-terminal_2f2b4564",
+            "args": [
+                "TIAGO",
+                "TARDELLI",
+                "38",
+                "1.78"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "java-terminal_2f2b4564"
+        }
+    ]
+}
