@@ -542,4 +542,4 @@ existem símbolos que representam cada um deles.
 <sub>Ilustração utilizando a ferramenta Astah Community</sub>
 
 Casos de estudo
-![Estudo](./resources/caso_estudo.png"Estudo")
+![Estudo](./resources/caso_estudo.png "Estudo")
