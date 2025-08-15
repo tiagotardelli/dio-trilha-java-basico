@@ -47,7 +47,7 @@ toda informação que representa o estado do objeto.
 * **Comportamentos** (behavior): Também conhecido como ações ou métodos, é toda parte
 comportamental que um objeto dispõe.
 * **Instanciar** (new): É o ato de criar um objeto a partir de estrutura definida em uma classe.
-![Classe](resources/classe.png "Classe")
+![Classe](./resources/classe.png "Classe")
 <sub>Ilustração de uma classe Estudante e 03 objetos criados</sub>
 
 Para ilustrar as etapas de desenvolvimento orientada a objetos em Java, iremos reproduzir a 
@@ -113,7 +113,7 @@ com banco de dados.
 * **Classe de controle (controller):** classes que possuem a finalidade de 
 disponibilizar alguma comunicação externa à nossa aplicação, tipo http web ou webservices.
 * **Classe utilitária (util):** classe que contém recursos comuns à toda nossa aplicação.
-![Container Spring](resources/container_spring.png "Container Spring")
+![Container Spring](./resources/container_spring.png "Container Spring")
 <sub>Modelo aplicado em grande parte dos projetos atuais</sub>
 <sub>Exercite a distribuição de classes por papéis dentro da sua aplicação para que se 
 possa determinar a estrutura mais conveniente em cada arquivo do seu projeto.</sub>
@@ -510,16 +510,16 @@ em alguma etapa da aplicação e necessidade de algumas se relacionarem, o que d
 compreender é o nível de dependência entre elas:
 * Associação -> Uma associação define um relacionamento entre duas classes, permitindo
 que um objeto tenha acesso a estrutura de um outro objeto. 
-![Associação]( /resources/Associacao.png "Associação")
+![Associação](./resources/Associacao.png "Associação")
 * **Agregação**: Em uma agregação a classe principal contém ma relação com outra classe
 mas ela pode existir sem a classe agregadora. Imagina em um cadastro de Candidatos, podemos
 encontrar candidatos que ainda não possuam uma Profissão.
-![Agregação]( /resources/Agregacao.png "Agregação")
+![Agregação](./resources/Agregacao.png "Agregação")
 <sub>Candidato é classe principal e a Profissão agregação</sub>
 * **Composição**: A composição já caracteriza uma dependência existente entre a classe
 principal e a classe associada. Imaginamos que uma Admissão só poderá existir contendo
 suas informações básicas e a composição do Candidato selecionado.
-![Composição]( /resources/Composicao.png "Composição")
+![Composição](./resources/Composicao.png "Composição")
 <sub>Admissao é a classe principal e Candidato compõe a Admissao</sub>
 
 ### Multiplicidade
@@ -538,8 +538,8 @@ existem símbolos que representam cada um deles.
 * (#) Visibilidade protegida (muito associada com herança)
 * (-) Visibilidade privada
 
-![Representação]( /resources/Representacao_Visibilidade.png "Representação")
+![Representação](./resources/Representacao_Visibilidade.png "Representação")
 <sub>Ilustração utilizando a ferramenta Astah Community</sub>
 
 Casos de estudo
-![Estudo]( /resources/caso_estudo.png"Estudo")
+![Estudo](./resources/caso_estudo.png"Estudo")
