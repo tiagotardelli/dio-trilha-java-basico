@@ -512,9 +512,9 @@ Observem que não há uma especificação de marca, modelo e ou capacidade de ex
 que consideramos o nível mais abstrato da orientação a objetos que denominamos como **interfaces**.
 
 Ilustração de interfaces dos equipamentos citados acima.
-!["Dispositivos representação"](/resources/representacao_interface1.png "Dispositivos representação")
+!["Dispositivos representação"](./resources/representacao_interface1.png "Dispositivos representação")
 Representação de objetos reais com base nas interfaces citadas acima.
-!["Dispositivos marca"](/resources/representacao_interface2.png "Dispositivos marca")
+!["Dispositivos marca"](./resources/representacao_interface2.png "Dispositivos marca")
 <sub>Então o que você está dizendo é que **interfaces** é o mesmo que **classes**?</sub>
 <sub>Um modelo para representação dos objetos reais?</sub>
 
